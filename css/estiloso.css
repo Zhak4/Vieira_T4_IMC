@@ -1,7 +1,7 @@
 body {
     font-family: Ruby;
     color: white;
-    background-image: url("../imagens/principal_fundo.jpg");
+    background-color: #274472;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,10 +12,13 @@ h1 {
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     padding: 0 20px;
 }
 
+.botao {
+    
+}
 .d2 {
     width: auto;
     height: auto;
@@ -32,9 +35,33 @@ h1 {
     src: url(../fonte/Rubik-VariableFont_wght.ttf);
 }
 
-@media only screen and (max-width: 450px) {
-    h1 {
-        float: none;
-    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: inline-block;
+  }
+  
+  li {
+    float: left;
+    place-items: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+ 
+.img-nav {
+    height: 5%;
+    width: 8%;
 }
 
