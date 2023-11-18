@@ -28,19 +28,50 @@ box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 border-radius: 50px;
 transition : 1000ms;
 transform: translateY(0);
-display: flex;
+display: inline;
 flex-direction: row;
 align-items: center;
 cursor: pointer;
 text-align: center;
 width: 250px;
+align-self: center;
 }
 
 .botao:hover{
 transition : 1000ms;
 padding: 10px 50px;
 transform : translateY(-0px);
-background-color: #10d47f;
+background-color: #ffffff;
+color: #10d47f;
+border: solid 2px #0066cc;
+}
+
+
+.botaozinho{
+  font-weight: 0;
+  font-size: 24px;
+  color: #fff;
+  background-color: #0066cc;
+  padding: 14px 40px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  width: 250px;
+  align-self: center;
+}
+
+.botaozinho:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
 color: #0066cc;
 border: solid 2px #0066cc;
 
