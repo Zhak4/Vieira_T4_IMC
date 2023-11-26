@@ -22,4 +22,6 @@ function calcularIMC() {
         resultado.innerHTML = imc.toFixed(2) + "Você está com obesidade II.";
         imagem.src = "obesidade_II.png";
     }
+
+    
 }
