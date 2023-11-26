@@ -7,21 +7,32 @@
     src: url(../fonte/Rubik-VariableFont_wght.ttf);
 }
 
+h4 {
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
 body {
     font-family: Ruby;
     padding: 10px;
-    background: #f1f1f1;
+    background: #274472;
 }
 
 /* Header/Blog Title */
 .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background-image: url(../imagens/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header h1 {
     font-size: 50px;
+    color: white;
 }
 
 
@@ -37,20 +48,42 @@ body {
 .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #274472;
     padding-left: 20px;
 }
 
 /* Fake image */
-.fakeimg {
-    background-color: #aaa;
+.fakeimg-1 {
+    background-image: url(../imagens/prato_de_alimentos_equilibrados.jpg);
     width: 100%;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.fakeimg-2 {
+    background-image: url(../imagens/food_service_healthy.jpg);
+    width: 100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.imc {
+    background-image: url(../imagens/habitos-saudaveis.jpg);
+    width: 100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
 }
 
 /* Add a card effect for articles */
 .card {
-    background-color: white;
+    background-color: rgb(226, 215, 215);
     padding: 20px;
     margin-top: 20px;
 }
