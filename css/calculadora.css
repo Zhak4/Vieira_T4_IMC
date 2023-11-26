@@ -1,0 +1,42 @@
+body {
+    font-family: Ruby;
+}
+
+@font-face {
+    font-family: Ruby;
+    src: url(../fonte/Rubik-VariableFont_wght.ttf);
+  }
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container img {
+    width: 50px;
+    height: auto;
+}
+
+button {
+    font-family: Ruby;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
