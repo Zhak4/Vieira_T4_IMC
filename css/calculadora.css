@@ -1,5 +1,6 @@
 body {
     font-family: Ruby;
+    background-color: #274472;
 }
 
 @font-face {
@@ -10,9 +11,11 @@ body {
 .container {
     width: 40%;
     margin: 0 auto;
+    margin-top: 70px;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
 
 .container table {
@@ -27,12 +30,9 @@ body {
     height: auto;
 }
 
-button {
-    font-family: Ruby;
-}
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     text-align: left;
     padding: 8px;
   }

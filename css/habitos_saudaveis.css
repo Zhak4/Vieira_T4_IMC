@@ -11,6 +11,10 @@ h4 {
     color: white;
 }
 
+ul {
+    list-style-type: circle;
+}
+
 p {
     text-align: justify;
 }
@@ -69,6 +73,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+}
+
+.fakeimg-3 {
+    background-image: url(../imagens/dicas.jpg);
+    width: 100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.fakeimg-4 {
+    background-image: url(../imagens/piramide.jpg);
+    width: 100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
 
 .imc {
